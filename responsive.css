@@ -1,0 +1,254 @@
+@media screen and (max-width: 1140px) {
+    .row {
+        padding:0 2rem
+    }
+}
+@media screen and (max-width: 1024px) {
+    header {
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 992px) {
+    #menu-icon {
+        display: block;
+    }
+    .hidden {
+        display: none;
+    }
+    ul li {
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 1rem;
+    }
+    ul li::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+    ul li:first-child {
+        padding-left: 1rem;
+    }
+    ul li:last-child {
+        display: none;
+    }
+    nav {
+        border: 0;
+    }
+    header {
+        height: 60rem;
+    }
+    .hero-area {
+        position: relative;
+        top: 20rem;
+        text-align: center;
+    }
+    .client-active {
+        width: 700px;
+    }
+    .clients .little-description {
+        width: 500px;
+    }
+    .client-image {
+        text-align: center;
+        margin: auto;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    .fusion-body {
+        padding: 2rem 2rem; 
+    }
+    .fusion-card {
+        padding: 3rem 3rem;
+    }
+    .gallery_card:nth-child(3),
+    .gallery_card:nth-child(6) {
+        padding-right: 2rem;
+
+    }
+        .blog-card:nth-child(3),
+        .blog-card:nth-child(6){
+        padding-right: 2rem;
+    }
+    .blog_1 {
+        height: 30rem;
+    }
+    .blog_1 img {
+        height: 30rem;
+    }
+    .blog_2 {
+        height: 30rem;
+        padding-right: 0;
+    }
+    .blog_3 {
+        height: 30rem;
+        
+    }
+    .blog_3 img {
+        height: 30rem;
+    }
+    .blog_4 {
+        height: 30rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .blog_4 img  {
+        width: 100%;
+        height: 15rem;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .blog_4 .blog-desc {
+        width: 100%;
+        height: auto;
+        float: 0;
+        background-color: #fff;
+    }
+    .blog_5 {
+        height: 30rem;
+        margin-top: 3rem;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .blog_5 img {
+        height: 30rem;
+    }
+    .blog_6 {
+        height: 40rem;
+        margin-top: -30rem;
+    }
+    .blog-desc {
+        padding: 2rem;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+    }
+    .booking {
+        padding: 4rem 0;
+    }
+    .booking p {
+        font-size: 2rem;
+    }
+    .follow-us h3 {
+        text-align: center;
+    }
+    .social-icon {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .client-active {
+        width: 90%;
+    }
+    .clients .little-description {
+        width: 100%;
+    }
+    .client-image {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .clients .col-4, .col-8 {
+        width: 100%;
+    }
+    .booking {
+        padding: 3rem 0;
+    }
+    .booking p {
+        font-size: 1.5rem;
+    }
+    .booking-description .book-btn {
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+    }
+    .about-us, .address, .contact {
+        padding: 1rem;
+    } 
+    .follow-us h3 {
+        text-align: center;
+    }
+    .social-icon {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .client-active {
+        width: 90%;
+    }
+    .client-active .clients {
+        display: block;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    h1 {
+        font-size: 5rem;
+    }
+    .clients {
+        width: 100%;
+    }
+    .booking p {
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+    }
+    .booking .book-btn {
+        display: block;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        width: 10rem;
+        padding: .5rem 0;
+        margin-top: 2rem;
+    
+    }
+    .contact .col-3 {
+        width: 50%;
+        margin-right: 0;
+        height: 18rem;
+    }
+    .social-icon {
+        display:inline;
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .blog_4 img {
+        height: 20rem;
+    }
+    .blog_6 {
+        height: 40rem;
+        margin-top: 3rem;
+    }
+
+}
